@@ -1,0 +1,39 @@
+:root {
+	--theme-color:#09001f;
+	--tint-color:#783585;
+}
+
+body {
+	background-color: var(--theme-color);
+	color: white;
+	font-family: 'Noto Sans KR', sans-serif;
+	margin: 0px;
+}
+
+h1 {
+	/*background-color: white;*/
+	/*color: #F2A54D;*/
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+
+}
+
+a.strong_button {
+	background-color: #5185fa;
+	color: white;
+	text-decoration: none;
+	padding: 4pt;
+	border: 1px solid transparent;
+	border-radius: 5pt;
+}
+
+a.button {
+	/*background-color: #5185fa;*/
+	color: white;
+	text-decoration: none;
+	padding: 4pt;
+	border: 1px solid white;
+	border-radius: 5pt;
+}
