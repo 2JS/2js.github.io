@@ -28,7 +28,7 @@ h1 {
 }
 
 h1::before {
-	content: "•";
+	content: "\2022";
 	padding-right: 8px;
 }
 
