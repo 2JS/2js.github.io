@@ -32,10 +32,6 @@ h1::before {
 	padding-right: 8px;
 }
 
-h2 {
-
-}
-
 a.button {
 	background-color: var(--background-color);
 	color: white;
@@ -43,22 +39,19 @@ a.button {
 	padding: 4pt 6pt;
 	border: 1px solid white;
 	border-radius: 5pt;
+	line-height: 2.2em;
 }
 
 a.button:hover {
 	background-color: gray;
 }
 
-a.strong_button {
+a.strong {
 	background-color: var(--tint2);
-	color: white;
-	text-decoration: none;
-	padding: 4pt 6pt;
-	border: 1px solid transparent;
-	border-radius: 5pt;
+	border: 1px solid var(--background-color);
 }
 
-a.strong_button:hover {
+a.strong:hover {
 	background-color: var(--tint2-highlight);
 }
 
@@ -66,14 +59,23 @@ a.project {
 	
 }
 
-div.topbar {
+footer {
 	font-family: 'Ubuntu', sans-serif;
-	text-align: right;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	right: 0px;
+	text-align: center;
+	position: sticky;
+	position: -webkit-sticky;
+	/*top: 0px;*/
+	/*left: 0px;*/
+	/*right: 0px;*/
+	bottom: 0px;
 	margin: 0px;
 	padding: 18px;
 }
 
+span.dot {
+	height: 2px;
+	width: 2px;
+	background-color: white;
+	border-radius: 50%;
+	display: inline-block;
+}
